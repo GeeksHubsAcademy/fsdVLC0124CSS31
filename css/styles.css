@@ -1,0 +1,75 @@
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* div {
+
+    height: 2em;
+    width: 2em;
+
+    background-color: cornflowerblue;
+} */
+
+#padre {
+
+    height: 100vh;
+    width: 100vw;
+
+    background-color: darkkhaki;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.caja {
+
+    height: 4em;
+    width: 4em;
+
+    background-color: crimson;
+
+    margin: 1em;
+    transition: 1s;
+}
+
+.caja:hover {
+    transition: 1s;
+    border-radius: 10% 24% 50% 4%;
+}
+
+.cajaEspecial {
+
+    background-color: chocolate;
+}
+
+#cajaUnica {
+    
+    transition: 1s;
+    background-color: blueviolet;
+}
+
+#cajaUnica:hover {
+
+    transition: 1s;
+    border-radius: 50%;
+    margin-top: 2em;
+    cursor: pointer;
+}
+
+::selection {
+    background: yellow;
+    color: red;
+}
+
+/* 
+    Soy un feo comentario que te va a recordar
+    que justo aquí debajo se encuentra la inusual
+    selección descendente
+
+*/
+#padre #nombre p {
+    color: blue;
+}
